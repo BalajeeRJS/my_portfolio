@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
 
   const downloadTxtFile = () => {
-    fetch('https://github.com/BalajeeRJS/my_portfolio/blob/main/RJS%20Balajee.pdf', {
+    fetch('RJS Balajee.pdf', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/pdf',
@@ -19,9 +19,9 @@ export default function About() {
       link.href = url;
       link.setAttribute(
         'download',
-        `FileName.pdf`,
+        `RJS Balajee.pdf`,
       );
-  
+ 
       // Append to html link element page
       document.body.appendChild(link);
   
@@ -60,7 +60,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="./balajee.png"
+            src="/My-portfolio/portfolio/doc/balajee.png"
           />
         </div>
       </div>
