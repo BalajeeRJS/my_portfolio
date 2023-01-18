@@ -1,9 +1,10 @@
 # README
 
+**About Project**
 
 This a my portfolio Website code
 
-Tech Stack :
+**Tech Stack :**
 
 React Js
 
