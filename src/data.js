@@ -25,7 +25,7 @@ export const skills = [
     "JavaScript",
     "React Js",
     "Node Js",
-    "Unix Scripting",
+    "Python",
     "Mongo DB",
     "SQL"
   ];
