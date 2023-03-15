@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Python, Streamlit, AWS MySQL, Pandas, Plotly",
     description:
       "This is Streamlit web app for analysing and visualizing Phonepe Pulse Data (2018-2022).The unstructured pluse data are cloned and transformed to structure data. Then,the structure data are stored in AWS RDS Mysql database.",
-    image: "./phonepepulse.jpeg",
+    image: "./phonepepulse.jpg",
     link: "https://balajeerjs-phonepe-pulse-data-analysis-main-b2jniv.streamlit.app/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Python, Streamlit, Mongo DB, Pandas, Snscrape",
     description:
       "This is Streamlit web app for Scraping Twitter.It scrapes the twitter data for the given hashtag/keyword in a specific date range using snscrape library.The retrieved tweets are uploaded in MongoDB and can be downloaded as CSV or JSON file.",
-    image: "./twitterscrap.jpeg",
+    image: "./twitterscrap.jpg",
     link: "https://balajeerjs-twitter-scrap-main-8w2auu.streamlit.app/",
   },
     {
