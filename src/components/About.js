@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
 
   const downloadTxtFile = () => {
-    fetch('RJS Balajee.pdf', {
+    fetch('./R.J.S. Balajee.pdf', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/pdf',
@@ -19,7 +19,7 @@ export default function About() {
       link.href = url;
       link.setAttribute(
         'download',
-        `RJS Balajee.pdf`,
+        `R.J.S. Balajee.pdf`,
       );
  
       // Append to html link element page
@@ -38,8 +38,7 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Balajee.
-            <br className="hidden lg:inline-block" />I build amazing
-            Websites.
+            <br className="hidden lg:inline-block" />Aspiring Data Engineer
           </h1>
           <p className="mb-8 leading-relaxed">
             

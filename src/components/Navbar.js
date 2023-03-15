@@ -23,7 +23,7 @@ export default function Navbar() {
           </a>
           
           <a  href="https://github.com/BalajeeRJS" target="_blank" rel="noopener noreferrer" className="mr-5 text-white bg-gray-800 text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-700 rounded">
-            <span><i class="fa fa-github lsym"></i></span> GitHub
+            <span><i className="fa fa-github lsym"></i></span> GitHub
           </a>
         </nav>
         <a

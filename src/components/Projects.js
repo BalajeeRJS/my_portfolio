@@ -15,10 +15,13 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <p
+            <a
+              target='_blank'
+              without rel="noreferrer"
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
+               
               <div className="flex relative" style={{height:"300px" }}>
                 <img
                   alt="gallery"
@@ -35,7 +38,7 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </p>
+            </a>
           ))}
         </div>
       </div>
