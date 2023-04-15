@@ -16,7 +16,7 @@ export default function About() {
         new Blob([blob]),
       );
       const link = document.createElement('a');
-      link.href = url;
+      link.href = url+Date.now();
       link.setAttribute(
         'download',
         `R.J.S. Balajee.pdf`,
